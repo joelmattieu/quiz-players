@@ -1,0 +1,71 @@
+html{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: lightblue;
+}
+
+header{
+  padding: .8rem;
+  background-color: rgb(255, 255, 255);
+}
+
+header .stars{
+  margin: 0 auto;
+  width: 9rem;
+
+}
+
+.stars img{
+  width: 100%;
+  height: auto;
+}
+
+main{
+  height: 120vh;
+}
+
+main h2{
+  font-size: 1.2rem;
+  margin: 3rem 1rem;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  border-radius: .8rem;
+  box-shadow: 4px 4px 16px -7px rgba(0,0,0,0.75);
+  width: 80%;
+  max-width: 45rem;
+  margin: 0 auto;
+  padding: 2rem 5rem;
+}
+
+.box > *{
+  margin-bottom: 1rem;
+}
+
+select{
+  background-color: #f5f5dc;
+  border: none;
+  outline: none;
+  border-radius: .2rem;
+}
+
+.box-jugador{
+  width: 100%;
+  max-width: 20rem;
+  height: auto;
+  margin: 0 auto;
+}
+
+.box-jugador img{
+  object-fit: cover;
+  border-radius: .8rem;
+}
